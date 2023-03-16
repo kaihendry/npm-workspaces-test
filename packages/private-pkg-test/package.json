@@ -1,0 +1,23 @@
+{
+  "name": "@kaihendry/private-pkg-test",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kaihendry/private-pkg-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://gitlab.com/api/v4/projects/44360282/packages/npm/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kaihendry/private-pkg-test/issues"
+  },
+  "homepage": "https://gitlab.com/kaihendry/private-pkg-test#readme"
+}
